@@ -3,7 +3,7 @@
     <div class="container gap-4">
         <a href="#" class="navbar-brand me-0">
             <?php 
-                        the_custom_logo();
+                the_custom_logo();
                     ?>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

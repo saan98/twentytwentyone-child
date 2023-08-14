@@ -8,7 +8,7 @@
             wp_nav_menu(array(
                 'theme_location' => 'primary-menu',
                 'container' => 'ul',
-                'menu_class' => 'navbar-nav nav-menu-items ps-lg-5 text-center', // Use the Bootstrap navbar-nav class
+                'menu_class' => 'navbar-nav nav-menu-items ps-lg-5 text-center',
                 'add_li_class'  => 'nav-link link-dark',
             ));
             ?>

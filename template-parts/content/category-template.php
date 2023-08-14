@@ -1,4 +1,3 @@
-<!--CATEGORY SECTION START-->
 <section class="category-section">
     <div class="container">
         <div class="row gap-3">
@@ -6,24 +5,30 @@
                 WHAT FOLKS CAN'T GET ENOUGH OF
             </div>
             <div class="cat-items text-center">
-                <ul class=" list-group list-group-flush list-group-horizontal-xxl gap-4">
-                    <li class="list-group-item border-0"><img
-                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Frame 4.png" alt="..." />
+                <ul class="list-group list-group-flush list-group-horizontal-xxl gap-4">
+                    <?php
+                    $args = array(
+                      'post_type' => 'category_item',
+                      'posts_per_page' => -1,
+                      'category_name' => get_query_var('category-section'), 
+                    );
+
+                    $query = new WP_Query($args);
+
+                    if ($query->have_posts()) :
+                      while ($query->have_posts()) :
+                        $query->the_post();
+                    ?>
+                    <li class="list-group-item border-0">
+                        <?php the_post_thumbnail(); ?>
                     </li>
-                    <li class="list-group-item border-0"><img
-                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Frame 5.png" alt="..." />
-                    </li>
-                    <li class="list-group-item border-0"><img
-                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Frame 6.png" alt="..." />
-                    </li>
-                    <li class="list-group-item border-0"><img
-                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Frame 7.png" alt="..." />
-                    </li>
-                    <li class="list-group-item border-0"><img
-                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Frame 8.png" alt="..." />
-                    </li>
+                    <?php
+                      endwhile;
+                      wp_reset_postdata();
+                    endif;
+                    ?>
                 </ul>
             </div>
         </div>
+    </div>
 </section>
-<!--CATEGORY SECTION END-->

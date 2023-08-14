@@ -33,3 +33,18 @@ add_action( 'wp_enqueue_scripts', 'tto_scripts' );
     return $classes;
 }
 add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
+
+function register_category_item_post_type() {
+	register_post_type('category_item',
+	  array(
+		'labels' => array(
+		  'name' => 'Category Items',
+		  'singular_name' => 'Category Item',
+		),
+		'public' => true,
+		'supports' => array('title', 'thumbnail'),
+	  )
+	);
+  }
+  add_action('init', 'register_category_item_post_type');
+  
