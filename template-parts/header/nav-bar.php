@@ -10,16 +10,9 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="input-group">
-            <input class="form-control border-end-0 border" placeholder="Search" type="search"
-                id="example-search-input">
-            <span>
-                <button class="btn btn-outline-secondary bg-white border-start-0 border" type="button">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/search_icon.png"
-                        alt="search" />
-                </button>
-            </span>
-        </div>
+
+        <?php get_search_form( true ); ?>
+
         <div class="collapse navbar-collapse gap-4 text-center" id="navbarSupportedContent">
             <div class="container d-lg-flex">
                 <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/flag_icon.png" alt="Cannada" />

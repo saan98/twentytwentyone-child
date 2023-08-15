@@ -14,10 +14,10 @@ function tto_scripts() {
 	wp_enqueue_style( 'owl-carousel-css', get_stylesheet_directory_uri(). '/assets/owl_carousel/owl.carousel.css' );
 	wp_enqueue_style( 'owl-theme-default-css', get_stylesheet_directory_uri(). '/assets/owl_carousel/owl.theme.default.css' );
 
-	wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/assets/js/script.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'jquery-cdn', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'bootstrap-script', get_stylesheet_directory_uri() . '/assets/js/bootstrap.bundle.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'owl-carousel-script', get_stylesheet_directory_uri() . '/assets/owl_carousel/owl.carousel.js', array(), '1.0.0', true );
-	wp_enqueue_script( 'jquery-cdn', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/assets/js/script.js', array(), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'tto_scripts' );
 

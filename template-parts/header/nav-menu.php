@@ -5,11 +5,12 @@
             <div class="container px-0 pb-3">
                 <?php
             // Display the primary menu
+            // wp_die(var_dump(get_registered_nav_menus(  )));
             wp_nav_menu(array(
-                'theme_location' => 'primary-menu',
+                'theme_location' => 'primary',
                 'container' => 'ul',
                 'menu_class' => 'navbar-nav nav-menu-items ps-lg-5 text-center',
-                'add_li_class'  => 'nav-link link-dark',
+                'add_li_class'  => 'nav-link link-dark'
             ));
             ?>
             </div>

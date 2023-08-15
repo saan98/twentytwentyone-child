@@ -27,7 +27,7 @@ $('#owl-carousel-1').owlCarousel({
             loop:false
         }
     }
-})
+});
 
 $('#owl-carousel-2').owlCarousel({
     loop: false,
@@ -55,7 +55,7 @@ $('#owl-carousel-2').owlCarousel({
             loop:false
         }
     }
-})
+});
 $('#owl-carousel-3').owlCarousel({
     loop: false,
     margin: 10,
@@ -82,7 +82,7 @@ $('#owl-carousel-3').owlCarousel({
             loop:false
         }
     }
-})
+});
 
 $('.owl-next').on('click', function() {
     $('.owl-carousel-1').trigger('stop.owl.autoplay');
