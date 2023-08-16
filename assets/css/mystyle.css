@@ -69,7 +69,6 @@ body {
 
 /**HERO SECTION**/
 .bg-image {
-    background-image: url('/assets/images/banner_image.png');
     height: 43.75rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,11 +80,11 @@ body {
 .hero-card {
     max-width: 23.6875rem;
     width: 100%;
-    background: transparent;
+    background: transparent !important;
 }
 
 .hero-card-body {
-    background: rgba(120, 120, 120, 0.90);
+    background: rgba(120, 120, 120, 0.90) !important;
     padding: 3.75rem;
 }
 

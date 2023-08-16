@@ -47,4 +47,73 @@ function register_category_item_post_type() {
 	);
   }
   add_action('init', 'register_category_item_post_type');
+
+/**
+ * Hero Banner Image
+ */
+
+function custom_theme_customize_register($wp_customize) {
+    $wp_customize->add_section('background_section', array(
+        'title' => __('Hero Banner Image', 'custom-theme'),
+        'priority' => 30,
+    ));
+
+    $wp_customize->add_setting('my_custom_background_image', array(
+        'default' => '',
+        'sanitize_callback' => 'esc_url_raw',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'background_image_control', array(
+        'label' => __('Upload Hero Banner Image', 'custom-theme'),
+        'section' => 'background_section',
+        'settings' => 'my_custom_background_image',
+    )));
+
+	// customizer options for hero card content
+	$wp_customize->add_section('hero_card_section', array(
+        'title' => __('Hero Card Content', 'custom-theme'),
+        'priority' => 31, 
+    ));
+	
+	
+	$wp_customize->add_setting('hero_card_title', array(
+		'default' => 'Limited Live Sale',
+		'sanitize_callback' => 'sanitize_text_field',
+	));
+
+	$wp_customize->add_setting('hero_card_percentage', array(
+		'default' => 'XX%',
+		'sanitize_callback' => 'sanitize_text_field',
+	));
+
+	$wp_customize->add_setting('hero_card_discount_text', array(
+		'default' => 'Discount on curated items',
+		'sanitize_callback' => 'sanitize_text_field',
+	));
+
+	// controls for the settings
+	$wp_customize->add_control('hero_card_title_control', array(
+		'label' => __('Hero Card Title', 'custom-theme'),
+		'section' => 'hero_card_section',
+		'settings' => 'hero_card_title',
+		'type' => 'text',
+	));
+
+	$wp_customize->add_control('hero_card_percentage_control', array(
+		'label' => __('Hero Card Discount Percentage', 'custom-theme'),
+		'section' => 'hero_card_section',
+		'settings' => 'hero_card_percentage',
+		'type' => 'text',
+	));
+
+	$wp_customize->add_control('hero_card_discount_text_control', array(
+		'label' => __('Hero Card Discount Text', 'custom-theme'),
+		'section' => 'hero_card_section',
+		'settings' => 'hero_card_discount_text',
+		'type' => 'text',
+	));
+
+}
+add_action('customize_register', 'custom_theme_customize_register');
+
   
