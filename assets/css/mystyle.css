@@ -141,6 +141,9 @@ body {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+.category-section .container li img {
+    height:auto !important;
+}
 
 .cat-title {
     font-family: var(--font-hero-card);
@@ -162,7 +165,7 @@ body {
 
 /* PRODUCT CARD */
 .product-card-img {
-    height: 8.8125rem;
+    height: 8.8125rem !important;
     object-fit: contain;
 }
 
@@ -243,6 +246,9 @@ body {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
+}
+.blog-card-image {
+    max-width: 100% !important;
 }
 
 .blog-btn {

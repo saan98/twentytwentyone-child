@@ -1,5 +1,5 @@
-const nextIcon = '<img src="/assets/images/arrow-next.png">'
-const prevIcon = '<img src="/assets/images/arrow-prev.png">'
+const nextIcon = '<img src="<?php echo get_stylesheet_directory_uri(); ?> /assets/images/arrow-next.png">'
+const prevIcon = '<img src="<?php echo get_stylesheet_directory_uri(); ?> /assets/images/arrow-prev.png">'
 
 $('#owl-carousel-1').owlCarousel({
     loop: false,

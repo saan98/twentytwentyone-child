@@ -10,7 +10,6 @@
                     $args = array(
                       'post_type' => 'category_item',
                       'posts_per_page' => -1,
-                      'category_name' => get_query_var('category-section'), 
                     );
 
                     $query = new WP_Query($args);

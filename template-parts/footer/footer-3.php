@@ -1,6 +1,9 @@
 <!--FOOTER3-->
 <section class="footer-content-copyright-wrapper">
     <div class="container footer-content-copyright text-center my-4">
-        © 2023, luxurywithluv. Powered by Shopify
+        <?php
+            $current_year = date('Y');
+            echo "© $current_year, " . get_bloginfo('name') . ". Powered by " . get_bloginfo('name');
+        ?>
     </div>
 </section>

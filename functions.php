@@ -25,7 +25,7 @@ add_action( 'wp_enqueue_scripts', 'tto_scripts' );
 /**
  * Add custom functions here
  */
-
+// adding class to li in menus
  function add_additional_class_on_li($classes, $item, $args) {
     if(isset($args->add_li_class)) {
         $classes[] = $args->add_li_class;
@@ -34,11 +34,12 @@ add_action( 'wp_enqueue_scripts', 'tto_scripts' );
 }
 add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
 
+// adding custom post type for category section
 function register_category_item_post_type() {
 	register_post_type('category_item',
 	  array(
 		'labels' => array(
-		  'name' => 'Category Items',
+		  'name' => 'Product Category',
 		  'singular_name' => 'Category Item',
 		),
 		'public' => true,
@@ -49,7 +50,7 @@ function register_category_item_post_type() {
   add_action('init', 'register_category_item_post_type');
 
 /**
- * Hero Banner Image
+ * Hero Banner Image and Card Content
  */
 
 function custom_theme_customize_register($wp_customize) {
@@ -116,4 +117,44 @@ function custom_theme_customize_register($wp_customize) {
 }
 add_action('customize_register', 'custom_theme_customize_register');
 
-  
+// custom post type for products
+
+function custom_register_product_post_type() {
+    $labels = array(
+        'name'               => _x( 'Products', 'post type general name', 'your-text-domain' ),
+        'singular_name'      => _x( 'Product', 'post type singular name', 'your-text-domain' ),
+        'menu_name'          => _x( 'Products', 'admin menu', 'your-text-domain' ),
+        'name_admin_bar'     => _x( 'Product', 'add new on admin bar', 'your-text-domain' ),
+        'add_new'            => _x( 'Add New', 'product', 'your-text-domain' ),
+        'add_new_item'       => __( 'Add New Product', 'your-text-domain' ),
+        'new_item'           => __( 'New Product', 'your-text-domain' ),
+        'edit_item'          => __( 'Edit Product', 'your-text-domain' ),
+        'view_item'          => __( 'View Product', 'your-text-domain' ),
+        'all_items'          => __( 'All Products', 'your-text-domain' ),
+        'search_items'       => __( 'Search Products', 'your-text-domain' ),
+        'parent_item_colon'  => __( 'Parent Products:', 'your-text-domain' ),
+        'not_found'          => __( 'No products found.', 'your-text-domain' ),
+        'not_found_in_trash' => __( 'No products found in Trash.', 'your-text-domain' )
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => array( 'slug' => 'products' ), 
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+        'supports'           => array( 'title', 'editor', 'thumbnail', 'custom-fields' ) ,
+		'taxonomies' => array('category'),
+    );
+
+    register_post_type( 'product', $args );
+}
+add_action( 'init', 'custom_register_product_post_type' );
+
+// footer-newsletter
