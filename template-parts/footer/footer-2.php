@@ -22,7 +22,20 @@
                     </ul>
                 </div>
             </div>
-            <!-- Add other columns similarly -->
+            <div class="col-lg-3">
+                <div class="d-flex gap-5 m-auto footer-content-text text-uppercase">
+                    <a class="text-decoration-none link-dark"
+                        href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>">
+                        Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="d-flex gap-5 m-auto footer-content-text text-uppercase">
+                    <a class="text-decoration-none link-dark "
+                        href="<?php echo get_permalink( get_page_by_title( 'Terms & Policies' ) ); ?>">
+                        Terms & Policies</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -300,6 +300,13 @@ body {
 .footer-content-copyright {
     font-family: Victor Mono;
 }
+img {
+	height: auto;
+	max-width: 100% !important;
+}
+/* button:not(:hover):not(:active):not(.has-background){
+    background-color:
+} */
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {

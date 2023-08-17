@@ -17,7 +17,16 @@ function tto_scripts() {
 	wp_enqueue_script( 'jquery-cdn', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'bootstrap-script', get_stylesheet_directory_uri() . '/assets/js/bootstrap.bundle.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'owl-carousel-script', get_stylesheet_directory_uri() . '/assets/owl_carousel/owl.carousel.js', array(), '1.0.0', true );
-	wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/assets/js/script.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'custom-js', get_stylesheet_directory_uri() . '/assets/js/script.js', array(), '1.0.0', true );
+
+     // Localize the script with image path
+     $image_path = get_stylesheet_directory_uri() . '/assets/images/arrow-next.png';
+     wp_localize_script('custom-js', 'customData', array('imagePath' => $image_path));
+
+     $image_path2 = get_stylesheet_directory_uri() . '/assets/images/arrow-prev.png';
+     wp_localize_script('custom-js', 'customData2', array('imagePath2' => $image_path2));
+
+     
 }
 add_action( 'wp_enqueue_scripts', 'tto_scripts' );
 
@@ -158,6 +167,36 @@ function custom_register_product_post_type() {
 add_action( 'init', 'custom_register_product_post_type' );
 
 // footer-section
+function customizer_footer_newsletter_section($wp_customize) {
+    $wp_customize->add_section('footer_newsletter_section', array(
+        'title' => 'Footer Newsletter',
+        'priority' => 130,
+    ));
+
+    $wp_customize->add_setting('footer_newsletter_title', array(
+        'default' => 'you’ve come so far.',
+        'sanitize_callback' => 'sanitize_text_field',
+    ));
+
+    $wp_customize->add_control('footer_newsletter_title', array(
+        'label' => 'Title',
+        'section' => 'footer_newsletter_section',
+        'type' => 'text',
+    ));
+
+    $wp_customize->add_setting('footer_newsletter_text', array(
+        'default' => 'So why not join our crew of airsoft nutheads for monthly promotions, updates, and tips? Nothing can go wrong',
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+
+    $wp_customize->add_control('footer_newsletter_text', array(
+        'label' => 'Text',
+        'section' => 'footer_newsletter_section',
+        'type' => 'textarea',
+    ));
+}
+add_action('customize_register', 'customizer_footer_newsletter_section');
+
 
 function customizer_footer_section($wp_customize) {
     $wp_customize->add_section('footer_section', array(
@@ -165,6 +204,7 @@ function customizer_footer_section($wp_customize) {
         'priority' => 120,
     ));
 
+    // footer-2
     $wp_customize->add_setting('footer_logo', array(
         'default' => '',
         'sanitize_callback' => 'esc_url_raw',
@@ -213,13 +253,6 @@ function customizer_footer_section($wp_customize) {
         'section' => 'footer_section',
         'type' => 'text',
     ));
-    
-    // Add settings and controls for other elements similarly
-    
-
-    // Add settings and controls for logo image, social links, etc.
-    // Define controls for footer settings here
-
 
     // footer-3 section 
 
