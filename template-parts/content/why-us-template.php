@@ -35,7 +35,7 @@
             </div>
             <?php
               endwhile;
-              wp_reset_postdata(); // Reset the post data
+              wp_reset_postdata(); 
             else :
               echo 'No posts found in this category.';
             endif;

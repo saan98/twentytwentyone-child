@@ -157,4 +157,81 @@ function custom_register_product_post_type() {
 }
 add_action( 'init', 'custom_register_product_post_type' );
 
-// footer-newsletter
+// footer-section
+
+function customizer_footer_section($wp_customize) {
+    $wp_customize->add_section('footer_section', array(
+        'title' => 'Footer Settings',
+        'priority' => 120,
+    ));
+
+    $wp_customize->add_setting('footer_logo', array(
+        'default' => '',
+        'sanitize_callback' => 'esc_url_raw',
+    ));
+    
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'footer_logo', array(
+        'label' => 'Footer Logo',
+        'section' => 'footer_section',
+        'settings' => 'footer_logo',
+    )));
+    
+    $wp_customize->add_setting('footer_social_twitter', array(
+        'default' => '',
+        'sanitize_callback' => 'esc_url_raw',
+    ));
+    $wp_customize->add_setting('footer_social_facebook', array(
+        'default' => '',
+        'sanitize_callback' => 'esc_url_raw',
+    ));
+    $wp_customize->add_setting('footer_social_instagram', array(
+        'default' => '',
+        'sanitize_callback' => 'esc_url_raw',
+    ));
+    $wp_customize->add_setting('footer_social_youtube', array(
+        'default' => '',
+        'sanitize_callback' => 'esc_url_raw',
+    ));
+    
+    $wp_customize->add_control('footer_social_twitter', array(
+        'label' => 'Twitter URL',
+        'section' => 'footer_section',
+        'type' => 'text',
+    ));
+    $wp_customize->add_control('footer_social_facebook', array(
+        'label' => 'Facebook URL',
+        'section' => 'footer_section',
+        'type' => 'text',
+    ));
+    $wp_customize->add_control('footer_social_instagram', array(
+        'label' => 'Instagram URL',
+        'section' => 'footer_section',
+        'type' => 'text',
+    ));
+    $wp_customize->add_control('footer_social_youtube', array(
+        'label' => 'Youtube URL',
+        'section' => 'footer_section',
+        'type' => 'text',
+    ));
+    
+    // Add settings and controls for other elements similarly
+    
+
+    // Add settings and controls for logo image, social links, etc.
+    // Define controls for footer settings here
+
+
+    // footer-3 section 
+
+    $wp_customize->add_setting('footer_copyright_text', array(
+        'default' => '© 2023, luxurywithluv. Powered by Shopify',
+        'sanitize_callback' => 'sanitize_text_field',
+    ));
+
+    $wp_customize->add_control('footer_copyright_text', array(
+        'label' => 'Copyright Text',
+        'section' => 'footer_section',
+        'type' => 'text',
+    ));
+}
+add_action('customize_register', 'customizer_footer_section');
