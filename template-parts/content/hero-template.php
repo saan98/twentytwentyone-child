@@ -1,3 +1,26 @@
+ <!--ANNOUNCEMENT BAR START-->
+ <section class="ann-bar-section">
+     <div class="container ann-bar-container">
+         <div class="row ann-bar-div align-items-center">
+             <div class="col-lg-4 col-md-12 ann-bar-text text-center ">
+                 <img class="m-2" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/a (1).png"
+                     alt="shipping-icon" />Free
+                 Canada-wide Shipping on orders over $300
+             </div>
+             <div class="col-lg-4 col-md-12 ann-bar-text text-center">
+                 <img class="m-2" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/a (2).png"
+                     alt="shipping-icon" />Price
+                 matching all Canadian retailer
+             </div>
+             <div class="col-lg-4 col-sm-12 ann-bar-text text-center">
+                 <img class="m-2" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/a (3).png"
+                     alt="shipping-icon" /> 4.8
+                 stars on GBP - 79 Google reviews
+             </div>
+         </div>
+     </div>
+ </section>
+ <!--ANNOUNCEMENT BAR END-->
  <!--HERO SECTION START-->
  <section>
      <?php $background_image = get_theme_mod('my_custom_background_image'); ?>
