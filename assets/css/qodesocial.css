@@ -1,0 +1,29 @@
+
+:root{
+    --main-color: #F78078;
+}
+/* Main Banner */
+.main-banner .banner-background{
+    width: 100%;
+    height: auto;
+    min-height: 350px ;
+    background: #F78078;
+    border-radius: 640px 0 0 640px;
+}
+.main-banner .banner-background img{
+    width: 100%;
+    height: auto;
+}
+
+/* Food Banner */
+.food-banner .banner-background{
+    width: 100%;
+    height: auto;
+    min-height: 350px ;
+    background: #F78078;
+    border-radius: 0 640px 640px 0;
+}
+.food-banner .banner-background img{
+    width: 100%;
+    height: auto;
+}
