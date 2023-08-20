@@ -122,7 +122,9 @@
 
                     <div class="icon-button">
                         <div class="container6">
-                            <div class="icon6">map-marker-alt</div>
+                            <div class="icon6"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/map-marker-alt.png" />
+                            </div>
                         </div>
                     </div>
                     <img class="map-child" alt=""
@@ -136,7 +138,9 @@
                                 <div class="div">416.226.0563</div>
                                 <div class="icon-button1">
                                     <div class="container7">
-                                        <div class="icon6">phone</div>
+                                        <div class="icon6"><img
+                                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/phone.png" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +148,9 @@
                                 <div class="helloqodesocialcom">hello@qodesocial.com</div>
                                 <div class="icon-button2">
                                     <div class="container7">
-                                        <div class="icon6">envelope</div>
+                                        <div class="icon6"><img
+                                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/envelope.png" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +163,9 @@
                                 </div>
                                 <div class="icon-button3">
                                     <div class="container7">
-                                        <div class="icon6">map-marker-alt</div>
+                                        <div class="icon6"><img
+                                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/map-marker-alt.png" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -167,37 +175,49 @@
                             <div class="social-icons">
                                 <div class="icon-button-with-hidden-text">
                                     <div class="container10">
-                                        <div class="icon10">facebook-f</div>
+                                        <div class="icon10"><img
+                                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/facebook-f.png" />
+                                        </div>
                                         <b class="button-text6">facebook</b>
                                     </div>
                                 </div>
                                 <div class="icon-button-with-hidden-text">
                                     <div class="container10">
-                                        <div class="icon10">twitter</div>
+                                        <div class="icon10"><img
+                                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/twitter.png" />
+                                        </div>
                                         <b class="button-text6">twitter</b>
                                     </div>
                                 </div>
                                 <div class="icon-button-with-hidden-text">
                                     <div class="container10">
-                                        <div class="icon10">linkedin-in</div>
+                                        <div class="icon10"><img
+                                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/linkedin-in.png" />
+                                        </div>
                                         <b class="button-text6">linkedIn</b>
                                     </div>
                                 </div>
                                 <div class="icon-button-with-hidden-text">
                                     <div class="container10">
-                                        <div class="icon10">instagram</div>
+                                        <div class="icon10"><img
+                                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/instagram.png" />
+                                        </div>
                                         <b class="button-text6">Instagram</b>
                                     </div>
                                 </div>
                                 <div class="icon-button-with-hidden-text">
                                     <div class="container10">
-                                        <div class="icon10">pinterest</div>
+                                        <div class="icon10"><img
+                                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/pinterest.png" />
+                                        </div>
                                         <b class="button-text6">pinterest</b>
                                     </div>
                                 </div>
                                 <div class="icon-button-with-hidden-text">
                                     <div class="container10">
-                                        <div class="icon10">tiktok</div>
+                                        <div class="icon10"><img
+                                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/tiktok.png" />
+                                        </div>
                                         <b class="button-text6">TikTok</b>
                                     </div>
                                 </div>
