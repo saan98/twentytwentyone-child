@@ -4,6 +4,40 @@
 
 
 <main class="homepage">
+
+    <section class="banner container">
+        <div class="banner1 row">
+            <div class="intro1 col-lg-6 col-md-12">
+                <p class="qode-social1">Qode Social</p>
+                <p class="uniting-brands-with">
+                    Uniting Brands with Audiences®
+                </p>
+                <div class="button-with-text-and-icon-container">
+                    <div class="button-with-text-and-icon9">
+                        <div class="container5">
+                            <b class="button-text">Let’s Get Started</b>
+                            <div class="icon5"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-with-text-and-icon10">
+                        <div class="container44">
+                            <b class="button-text">Our Work</b>
+                            <div class="icon5"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/pencil.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-child col-lg-6 col-md-12">
+                <img class="hand-icon" alt=""
+                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/hand@2x.png" />
+            </div>
+        </div>
+    </section>
+
     <div class="footer">
         <div class="keywords">
             <div class="keywords-child"></div>
@@ -32,38 +66,50 @@
                     <div class="button-with-text-and-icon">
                         <div class="containerA">
                             <b class="button-text">Name</b>
-                            <div class="icon">arrow-right</div>
+                            <div class="icon"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                            </div>
                         </div>
                     </div>
                     <div class="button-with-text-and-icon">
                         <div class="containerA">
                             <b class="button-text">Phone</b>
-                            <div class="icon">arrow-right</div>
+                            <div class="icon"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                            </div>
                         </div>
                     </div>
                     <div class="button-with-text-and-icon">
                         <div class="containerA">
                             <b class="button-text">Email</b>
-                            <div class="icon">arrow-right</div>
+                            <div class="icon"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                            </div>
                         </div>
                     </div>
                     <div class="button-with-text-and-icon">
                         <div class="containerA">
                             <b class="button-text">Website (optional)</b>
-                            <div class="icon">arrow-right</div>
+                            <div class="icon"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                            </div>
                         </div>
                     </div>
                     <div class="button-with-text-and-icon4">
                         <div class="containerA">
                             <b class="button-text">How can we help?</b>
-                            <div class="icon">arrow-right</div>
+                            <div class="icon"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="button-with-text-and-icon5">
                     <div class="container5">
                         <b class="button-text">Let’s Get Started</b>
-                        <div class="icon5">arrow-right</div>
+                        <div class="icon5"><img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -167,7 +213,9 @@
             <div class="button-with-text-and-icon6">
                 <div class="container5">
                     <b class="button-text">Let’s Get Started</b>
-                    <div class="icon5">arrow-right</div>
+                    <div class="icon5"><img
+                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                    </div>
                 </div>
             </div>
             <b class="accelerated-marketing-refresh">Accelerated marketing. Refreshing results</b>
@@ -182,7 +230,9 @@
                                     src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/orion.svg" />
                             </div>
                             <div class="title-container">
-                                <div class="title-text">check</div>
+                                <div class="title-text"><img
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/check.png" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -195,7 +245,9 @@
                                     src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/orion1.svg" />
                             </div>
                             <div class="title-container">
-                                <div class="title-text">check</div>
+                                <div class="title-text"><img
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/check.png" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -208,7 +260,9 @@
                                     src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/orion.svg" />
                             </div>
                             <div class="title-container">
-                                <div class="title-text">check</div>
+                                <div class="title-text"><img
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/check.png" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -404,7 +458,9 @@
                         <div class="button">
                             <div class="container5">
                                 <b class="button-text">Select</b>
-                                <div class="icon5">arrow-right</div>
+                                <div class="icon5"><img
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -442,7 +498,9 @@
                         <div class="button">
                             <div class="container5">
                                 <b class="button-text">Select</b>
-                                <div class="icon5">arrow-right</div>
+                                <div class="icon5"><img
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -480,7 +538,9 @@
                         <div class="button">
                             <div class="container5">
                                 <b class="button-text">Select</b>
-                                <div class="icon5">arrow-right</div>
+                                <div class="icon5"><img
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -923,7 +983,9 @@
             <div class="button3">
                 <div class="container29">
                     <b class="button-text">Gay Lea</b>
-                    <div class="icon23">chevron-right</div>
+                    <div class="icon23"><img
+                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/chevron-right.png" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -934,7 +996,9 @@
             <div class="button4">
                 <div class="container29">
                     <b class="button-text">Qualifirst</b>
-                    <div class="icon23">chevron-right</div>
+                    <div class="icon23"><img
+                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/chevron-right.png" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -945,7 +1009,9 @@
             <div class="button5">
                 <div class="container29">
                     <b class="button-text">FUZE Reps</b>
-                    <div class="icon23">chevron-right</div>
+                    <div class="icon23"><img
+                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/chevron-right.png" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -959,7 +1025,9 @@
             <div class="button">
                 <div class="container5">
                     <b class="button-text">View All Services</b>
-                    <div class="icon5">arrow-right</div>
+                    <div class="icon5"><img
+                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -1099,7 +1167,9 @@
             <div class="button-with-text-and-icon8">
                 <div class="container5">
                     <b class="button-text">About Us</b>
-                    <div class="icon5">arrow-right</div>
+                    <div class="icon5"><img
+                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -1150,33 +1220,7 @@
                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour6@2x.png" />
         </div>
     </div>
-    <section class="banner" class="banner">
-        <div class="banner1">
-            <div class="intro1">
-                <b class="qode-social1">Qode Social</b>
-                <div class="uniting-brands-with">
-                    Uniting Brands with Audiences®
-                </div>
-                <div class="button-with-text-and-icon-container">
-                    <div class="button-with-text-and-icon9">
-                        <div class="container5">
-                            <b class="button-text">Let’s Get Started</b>
-                            <div class="icon5">arrow-right</div>
-                        </div>
-                    </div>
-                    <div class="button-with-text-and-icon10">
-                        <div class="container44">
-                            <b class="button-text">Our Work</b>
-                            <div class="icon5">pencil</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="banner-child"></div>
-            <img class="hand-icon" alt=""
-                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/hand@2x.png" />
-        </div>
-    </section>
+
 </main>
 
 

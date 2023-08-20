@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
 
-body {
-    margin: 0;
-    line-height: normal;
-}
-
 :root {
     /* fonts */
     --font-comfortaa: Comfortaa;
@@ -54,6 +49,7 @@ body {
     --br-331xl: 350px;
 }
 
+
 /* Main Banner */
 .main-banner .banner-background {
     width: 100%;
@@ -61,7 +57,6 @@ body {
     max-height: 350px;
     background: var(--main-color);
     border-radius: 640px 0 0 640px;
-    position: relative;
 }
 
 .main-banner .container::after {
@@ -76,7 +71,6 @@ body {
 .main-banner .banner-background img {
     width: 100%;
     height: auto;
-    position: absolute;
 }
 
 .main-banner
@@ -95,16 +89,8 @@ body {
     height: auto;
 }
 
-/* Connect-With-US */
-.footer-social-icon-section .social-icon-menu ul {
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-    padding: 35px 0;
-}
+/* styles */
 
-
-/* s */
 .keywords-child {
     position: absolute;
     top: -0.5px;
@@ -204,21 +190,9 @@ body {
 }
 
 .button-with-text-and-icon,
-.containerA {
+.container {
     border-radius: var(--br-11xl);
     box-sizing: border-box;
-}
-
-.containerA {
-    height: 48px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    padding: 0 var(--padding-xl);
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-41xl);
 }
 
 .button-with-text-and-icon {
@@ -252,12 +226,12 @@ body {
 .icon5 {
     position: relative;
     font-size: var(--font-size-5xl);
-    text-align: center;
-    display: inline-block;
+    /* text-align: center; */
+    /* display: inline-block; */
     width: 42px;
-    flex-shrink: 0;
-    transform: rotate(-20deg);
-    transform-origin: 0 0;
+    /* flex-shrink: 0; */
+    /* transform: rotate(-20deg); */
+    /* transform-origin: 0 0; */
 }
 
 .container5 {
@@ -1982,14 +1956,14 @@ body {
     top: 0;
     left: 0;
     display: inline-block;
-    width: 598px;
+    /* width: 598px; */
 }
 
 .uniting-brands-with {
     top: 110px;
     font-size: var(--font-size-17xl);
     font-weight: 300;
-    width: 600px;
+    /* width: 600px; */
 }
 
 .button-with-text-and-icon9 {
@@ -2044,11 +2018,11 @@ body {
 
 .banner-child,
 .intro1 {
-    position: absolute;
-    top: 2.35px;
-    left: 0;
-    width: 600px;
-    height: 345px;
+    position: relative;
+    /* top: 2.35px; */
+    /* left: 0; */
+    /* width: 600px; */
+    /* height: 345px; */
 }
 
 .banner-child {
@@ -2063,11 +2037,12 @@ body {
 
 .hand-icon {
     position: absolute;
-    top: -119.34px;
-    left: 735px;
-    width: 840px;
-    height: 469.69px;
-    object-fit: cover;
+    top: -121.34px;
+    bottom: 0;
+    /* left: 735px; */
+    /* width: 840px; */
+    /* height: 469.69px; */
+    /* object-fit: cover; */
 }
 
 .banner1 {
