@@ -657,7 +657,7 @@
 
 .menu {
     background-color: var(--gray);
-    width: 1920px;
+    width: 100%;
     flex-direction: row;
     padding: var(--padding-101xl) var(--padding-326xl);
     box-sizing: border-box;
@@ -1433,7 +1433,6 @@
     top: 114px;
     left: 0;
     border-radius: 0 var(--br-171xl) var(--br-171xl) 0;
-    width: 1575px;
     height: 350px;
     overflow-x: auto;
     flex-direction: row;
@@ -1445,7 +1444,7 @@
 }
 
 .logo-block-group {
-    display: none;
+    display: flex;
 }
 
 .logo-carousel {

@@ -3,6 +3,8 @@
 <?php get_header() ?>
 
 
+
+
 <main class="homepage">
 
     <section class="banner container">
@@ -114,6 +116,7 @@
                 </div>
             </div>
         </div>
+
         <div class="bottom">
             <div class="contact">
                 <div class="map">
@@ -228,6 +231,7 @@
             </div>
         </div>
     </div>
+
     <div class="company-description">
         <div class="button-with-text-and-icon-group">
             <div class="button-with-text-and-icon6">
@@ -337,79 +341,52 @@
             </div>
         </div>
     </div>
+
     <div class="accolades">
         <div class="accolades-child"></div>
         <div class="logo-block-parent">
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw1@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour1@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw2@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw3@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw4@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw5@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw6@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw7@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw8@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <div class="logo-bw"></div>
-                <div class="logo-colour"></div>
+            <div id="owl-carousel-5" class="owl-carousel owl-theme">
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw1@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw2@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw3@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw4@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw5@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw6@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw7@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw8@2x.png" />
+                </div>
             </div>
         </div>
         <b class="our-accolades">Our accolades</b>
     </div>
+
     <div class="packages">
         <div class="pick-the-best-plan-for-you-parent">
             <b class="pick-the-best">Pick the best plan for you</b>
@@ -586,390 +563,178 @@
             </div>
         </div>
     </div>
+
     <div class="our-clients">
-        <div class="our-clients-child"></div>
-        <div class="logo-block-group">
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw9@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw10@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw11@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw12@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw13@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw14@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw15@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw16@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw17@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw18@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw19@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw20@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <div class="logo-bw"></div>
-                <div class="logo-colour"></div>
-            </div>
-        </div>
-        <div class="logo-carousel">
-            <div class="logo-block">
-                <div class="logo-bw"></div>
-                <div class="logo-colour"></div>
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw9@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw10@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw11@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw12@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw13@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw14@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw15@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw16@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw17@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw18@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw19@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw20@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw21@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw22@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw23@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw24@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw25@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw26@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw27@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw28@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw29@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw30@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw31@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw32@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw33@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw34@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw35@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw36@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw37@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw38@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw39@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw40@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw41@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw42@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw43@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw44@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw45@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour2@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw46@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw47@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <img class="logo-bw-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw48@2x.png" />
-
-                <img class="logo-colour-icon" alt=""
-                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-colour@2x.png" />
-            </div>
-            <div class="logo-block">
-                <div class="logo-bw"></div>
-                <div class="logo-colour"></div>
+        <div class="our-clients-child">
+            <div id="owl-carousel-4" class="owl-carousel owl-theme">
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw9@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw10@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw11@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw12@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw13@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw14@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw15@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw16@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw17@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw18@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw19@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw20@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw21@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw22@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw23@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw24@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw25@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw26@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw27@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw28@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw29@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw30@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw31@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw32@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw33@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw34@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw35@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw36@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw37@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw38@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw39@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw40@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw41@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw42@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw43@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw44@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw45@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw46@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw47@2x.png" />
+                </div>
+                <div class="logo-block">
+                    <img class="logo-bw-icon" alt=""
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw48@2x.png" />
+                </div>
             </div>
         </div>
+
+
+
         <b class="brands-we-are">Brands we are nurturing</b>
     </div>
+
     <div class="content-creation">
         <div class="image-turner">
             <img class="image-icon" alt=""
@@ -993,6 +758,7 @@
             </div>
         </div>
     </div>
+
     <div class="case-studies">
         <div class="accolades-child"></div>
         <b class="our-case-studies">Our Case Studies</b>
@@ -1036,6 +802,7 @@
             </div>
         </div>
     </div>
+
     <div class="services2">
         <div class="heres-a-highlight-of-some-of-parent">
             <div class="heres-a-highlight">
@@ -1177,6 +944,7 @@
             </div>
         </div>
     </div>
+
     <div class="intro">
         <div class="intro-child"></div>
         <div class="social-media-agency-for-busine-parent">
@@ -1196,6 +964,7 @@
         <img class="food-icon" alt=""
             src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/food@2x.png" />
     </div>
+
     <div class="badges">
         <div class="facebook">
             <img class="logo-bw-icon61" alt=""
