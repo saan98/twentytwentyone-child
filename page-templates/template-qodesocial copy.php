@@ -5,10 +5,14 @@
     <!-- ========== Start Banner ========== -->
     <section class="bannerz">
         <div class="container ">
-            <div class="row containerz justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-sm-12">
-                    <p class="titlez">Qode Social</p>
-                    <p>Uniting Brands with Audiences®</p>
+                    <div class="titlez">
+                        <p>Qode Social</p>
+                    </div>
+                    <div class="textz">
+                        <p>Uniting Brands with Audiences®</p>
+                    </div>
                     <div class="buttonz-link">
                         <a name="" id="" class="" href="#" role="button">Let's Get Started<img
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
@@ -19,9 +23,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12 colz">
-                    <div class="imgz-div">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/banner-handz.png"
-                            class="img-fluid rounded-top" alt="a hand holding phone">
+                    <div class="banner-img">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/banner-hand.png"
+                            class="hand-phone" alt="a hand holding phone">
                     </div>
                 </div>
             </div>
@@ -68,13 +72,20 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-sm-12">
-                    food-banner
+                    <div class="intro-img">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/food.png"
+                            class="hand-phone" alt="food on plate">
+                    </div>
                 </div>
                 <div class="col-lg-6 col-sm-12">
-                    <p class="titlez">Social media agency for businesses in Toronto</p>
-                    <p>Full service social media marketing agency & content creation agency</p>
+                    <div class="titlez">
+                        <p>Social media agency for businesses in Toronto</p>
+                    </div>
+                    <div class="textz">
+                        <p>Full service social media marketing agency & content creation agency</p>
+                    </div>
                     <div class="buttonz-link">
-                        <a name="" id="" class="" href="#" role="button">About Us<img
+                        <a name="" id="" class="btn btn-dark" href="#" role="button">About Us<img
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
@@ -151,18 +162,28 @@
         <div class="container">
             <div class="row text-center align-items-center">
                 <div class="col-lg-4 col-sm-12">
+                    <div class="case-study-img">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/gaylea.png" />
+                    </div>
                     <div class="buttonz-link">
                         <a name="" id="" class="" href="#" role="button">View All Services<img
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12">
+                    <div class="case-study-img">
+                        <img
+                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/qualifirst.png" />
+                    </div>
                     <div class="buttonz-link">
                         <a name="" id="" class="" href="#" role="button">View All Services<img
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12">
+                    <div class="case-study-img">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/fuze.png" />
+                    </div>
                     <div class="buttonz-link">
                         <a name="" id="" class="" href="#" role="button">View All Services<img
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
@@ -178,7 +199,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
-                    picture
+                    <div class="content-creation-img">
+                        <img
+                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/content-creation-img.png" />
+                    </div>
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <p>The Qode Social team is amazing to work with. Highly responsive and professional. They take the
@@ -528,7 +552,7 @@
     <!-- ========== Start Our Accolades ========== -->
     <section class="accoladesz">
         <div class="container">
-            <div class="row">
+            <div class="row text-end">
                 <div class="col-lg-12">
                     <p class="titlez">Our Accolades</p>
                 </div>
