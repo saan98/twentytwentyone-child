@@ -9,24 +9,13 @@
                 <div class="col-lg-6 col-sm-12">
                     <p class="titlez">Qode Social</p>
                     <p>Uniting Brands with Audiences®</p>
-                    <div class="button">
-                        <div class="container5">
-                            <a name="" id="" class="button-text" href="#" role="button">Let's Get Started</a>
-                            <div class="icon5"><img
-                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
-                            </div>
-                        </div>
+                    <div class="buttonz-link">
+                        <a name="" id="" class="" href="#" role="button">Let's Get Started<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
-                    <div class="button">
-                        <div class="container5">
-                            <a name="" id="" class="btn btn-light" href="#" role="button">Our Work</a>
-                            <div class="icon5"><img
-                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-btnz">
-
+                    <div class="buttonz-link">
+                        <a name="" id="" class="" href="#" role="button">Our Work<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -43,7 +32,7 @@
     <!-- ========== Start Badges ========== -->
     <section class="badgesz">
         <div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center text-center">
                 <div class="col-lg-2 col-sm-12">
                     <img class="" alt=""
                         src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/Facebook.png" />
@@ -84,7 +73,10 @@
                 <div class="col-lg-6 col-sm-12">
                     <p class="titlez">Social media agency for businesses in Toronto</p>
                     <p>Full service social media marketing agency & content creation agency</p>
-                    <a name="" id="" class="btn" href="#" role="button">About US</a>
+                    <div class="buttonz-link">
+                        <a name="" id="" class="" href="#" role="button">About Us<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -99,8 +91,9 @@
                     <p class="textz">
                         Here’s a highlight of some of the services that set us apart as Toronto Social Media Experts
                     </p>
-                    <div class="main-btn-design">
-                        <a name="" id="" class="btn btn-primary" href="#" role="button">View All Services</a>
+                    <div class="buttonz-link">
+                        <a name="" id="" class="" href="#" role="button">View All Services<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -158,18 +151,21 @@
         <div class="container">
             <div class="row text-center align-items-center">
                 <div class="col-lg-4 col-sm-12">
-                    <div class="main-btnz">
-                        <a name="" id="" class="btn btn-secondary" href="#" role="button">Button</a>
+                    <div class="buttonz-link">
+                        <a name="" id="" class="" href="#" role="button">View All Services<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12">
-                    <div class="main-btnz">
-                        <a name="" id="" class="btn btn-secondary" href="#" role="button">Button</a>
+                    <div class="buttonz-link">
+                        <a name="" id="" class="" href="#" role="button">View All Services<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12">
-                    <div class="main-btnz">
-                        <a name="" id="" class="btn btn-secondary" href="#" role="button">Button</a>
+                    <div class="buttonz-link">
+                        <a name="" id="" class="" href="#" role="button">View All Services<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
             </div>
@@ -447,13 +443,9 @@
                                                     marketing, and more.
                                                 </div>
                                             </div>
-                                            <div class="button">
-                                                <div class="container5">
-                                                    <b class="button-text">Select</b>
-                                                    <div class="icon5"><img
-                                                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
-                                                    </div>
-                                                </div>
+                                            <div class="buttonz-link">
+                                                <a name="" id="" class="" href="#" role="button">Select<img
+                                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -484,13 +476,9 @@
                                                     stories management, influencer marketing, and more.
                                                 </div>
                                             </div>
-                                            <div class="button">
-                                                <div class="container5">
-                                                    <b class="button-text">Select</b>
-                                                    <div class="icon5"><img
-                                                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
-                                                    </div>
-                                                </div>
+                                            <div class="buttonz-link">
+                                                <a name="" id="" class="" href="#" role="button">Select<img
+                                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -520,13 +508,9 @@
                                                     expertise. We’ve got you covered.
                                                 </div>
                                             </div>
-                                            <div class="button">
-                                                <div class="container5">
-                                                    <b class="button-text">Select</b>
-                                                    <div class="icon5"><img
-                                                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
-                                                    </div>
-                                                </div>
+                                            <div class="buttonz-link">
+                                                <a name="" id="" class="" href="#" role="button">Select<img
+                                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -599,13 +583,9 @@
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
                     <p class="titlez">Accelerated marketing. Refreshing results
-                    <div class="button">
-                        <div class="container5">
-                            <a name="" id="" class="button-text" href="#" role="button">Let's Get Started</a>
-                            <div class="icon5"><img
-                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
-                            </div>
-                        </div>
+                    <div class="buttonz-link">
+                        <a name="" id="" class="" href="#" role="button">Let's Get Started<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -680,20 +660,15 @@
                                                     marketing, and more.
                                                 </div>
                                             </div>
-                                            <div class="button">
-                                                <div class="container5">
-                                                    <b class="button-text">Select</b>
-                                                    <div class="icon5"><img
-                                                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
-                                                    </div>
-                                                </div>
+                                            <div class="buttonz-link">
+                                                <a name="" id="" class="" href="#" role="button">Select<img
+                                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                                             </div>
                                         </div>
                                     </div>
 
                                 </div>
                             </div>
-
                             <div class="tab-pane fade" id="v-pills-p2" role="tabpanel" aria-labelledby="v-pills-p2-tab"
                                 tabindex="0">
                                 <div class="package-card">
@@ -717,13 +692,9 @@
                                                     stories management, influencer marketing, and more.
                                                 </div>
                                             </div>
-                                            <div class="button">
-                                                <div class="container5">
-                                                    <b class="button-text">Select</b>
-                                                    <div class="icon5"><img
-                                                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
-                                                    </div>
-                                                </div>
+                                            <div class="buttonz-link">
+                                                <a name="" id="" class="" href="#" role="button">Select<img
+                                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -752,13 +723,9 @@
                                                     expertise. We’ve got you covered.
                                                 </div>
                                             </div>
-                                            <div class="button">
-                                                <div class="container5">
-                                                    <b class="button-text">Select</b>
-                                                    <div class="icon5"><img
-                                                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
-                                                    </div>
-                                                </div>
+                                            <div class="buttonz-link">
+                                                <a name="" id="" class="" href="#" role="button">Select<img
+                                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -767,7 +734,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
