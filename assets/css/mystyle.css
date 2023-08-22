@@ -348,7 +348,9 @@ img {
     }
 }
 
-
+button:not(:hover):not(:active):not(.has-background) {
+    background-color: unset !important;
+}
 
 
 /* inner-page styles */
@@ -364,6 +366,16 @@ img {
 
 .titlez {
     font-size: 48px;
+}
+
+.button,
+.content-container,
+.content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: fit-content;
 }
 
 .service-iconz-div {
