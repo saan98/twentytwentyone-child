@@ -9,11 +9,6 @@
                 <div class="col-lg-6 col-sm-12">
                     <p class="titlez">Qode Social</p>
                     <p>Uniting Brands with Audiences®</p>
-                    <div class="main-btnz button">
-                        <div class="container5">
-                            <a name="" id="" class="" href="#" role="button">Let's Get Started</a>
-                        </div>
-                    </div>
                     <div class="button">
                         <div class="container5">
                             <a name="" id="" class="button-text" href="#" role="button">Let's Get Started</a>
@@ -374,10 +369,10 @@
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="d-flex align-items-start">
-                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab2" role="tablist"
                             aria-orientation="vertical">
-                            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            <button class="nav-link active" id="v-pills-p1-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-p1" type="button" role="tab" aria-controls="v-pills-p1"
                                 aria-selected="true">
                                 <div class="orion1">
                                     <div class="outline">
@@ -390,9 +385,9 @@
                                     </div>
                                 </div>
                             </button>
-                            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-profile" type="button" role="tab"
-                                aria-controls="v-pills-profile" aria-selected="false">
+                            <button class="nav-link" id="v-pills-p2-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-p2" type="button" role="tab" aria-controls="v-pills-p2"
+                                aria-selected="false">
                                 <div class="arcturus">
                                     <div class="outline1">
                                         <div class="container17">
@@ -404,9 +399,9 @@
                                     </div>
                                 </div>
                             </button>
-                            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-settings" type="button" role="tab"
-                                aria-controls="v-pills-settings" aria-selected="false">
+                            <button class="nav-link" id="v-pills-p3-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-p3" type="button" role="tab" aria-controls="v-pills-p3"
+                                aria-selected="false">
                                 <div class="andromeda">
                                     <div class="outline1">
                                         <div class="container18">
@@ -419,9 +414,9 @@
                                 </div>
                             </button>
                         </div>
-                        <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                aria-labelledby="v-pills-home-tab" tabindex="0">
+                        <div class="tab-content" id="v-pills-tab2Content">
+                            <div class="tab-pane fade show active" id="v-pills-p1" role="tabpanel"
+                                aria-labelledby="v-pills-p1-tab" tabindex="0">
                                 <div class="package-card">
                                     <!-- <div class="icon18">
                                         <div class="outline">
@@ -458,8 +453,8 @@
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <div class="tab-pane fade" id="v-pills-p2" role="tabpanel" aria-labelledby="v-pills-p2-tab"
+                                tabindex="0">
                                 <div class="package-card">
                                     <!-- <div class="icon18">
                                         <div class="outline">
@@ -493,8 +488,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                aria-labelledby="v-pills-settings-tab" tabindex="0">
+
+                            <div class="tab-pane fade" id="v-pills-p3" role="tabpanel" aria-labelledby="v-pills-p3-tab"
+                                tabindex="0">
                                 <div class="package-card">
                                     <!-- <div class="icon18">
                                         <div class="outline">
@@ -536,5 +532,240 @@
         </div>
     </section>
     <!-- ========== End Packages ========== -->
+
+    <!-- ========== Start Our Accolades ========== -->
+    <section class="accoladesz">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="titlez">Our Accolades</p>
+                </div>
+                <div class="col-lg-12">
+                    <div id="owl-carousel-5" class="owl-carousel owl-theme">
+                        <div class="logo-iconz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw@2x.png" />
+                        </div>
+                        <div class="logo-iconz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw1@2x.png" />
+                        </div>
+                        <div class="logo-iconz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw2@2x.png" />
+                        </div>
+                        <div class="logo-iconz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw3@2x.png" />
+                        </div>
+                        <div class="logo-iconz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw4@2x.png" />
+                        </div>
+                        <div class="logo-iconz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw5@2x.png" />
+                        </div>
+                        <div class="logo-iconz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw6@2x.png" />
+                        </div>
+                        <div class="logo-iconz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw7@2x.png" />
+                        </div>
+                        <div class="logo-iconz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw8@2x.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Our Accolades ========== -->
+
+    <!-- ========== Start Company Description ========== -->
+    <section class="descriptionz">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="titlez">Accelerated marketing. Refreshing results
+                    <div class="button">
+                        <div class="container5">
+                            <a name="" id="" class="button-text" href="#" role="button">Let's Get Started</a>
+                            <div class="icon5"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab2" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active" id="v-pills-p1-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-p1" type="button" role="tab" aria-controls="v-pills-p1"
+                                aria-selected="true">
+                                <div class="orion1">
+                                    <div class="outline">
+                                        <div class="container18">
+                                            <div class="icon-container3">
+                                                <img class="orion-icon" alt=""
+                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/orion2.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            <button class="nav-link" id="v-pills-p2-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-p2" type="button" role="tab" aria-controls="v-pills-p2"
+                                aria-selected="false">
+                                <div class="arcturus">
+                                    <div class="outline1">
+                                        <div class="container17">
+                                            <div class="icon-container3">
+                                                <img class="arcturus-icon" alt=""
+                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arcturus.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            <button class="nav-link" id="v-pills-p3-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-p3" type="button" role="tab" aria-controls="v-pills-p3"
+                                aria-selected="false">
+                                <div class="andromeda">
+                                    <div class="outline1">
+                                        <div class="container18">
+                                            <div class="icon-container3">
+                                                <img class="andromeda-icon" alt=""
+                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/andromeda.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="tab-content" id="v-pills-tab2Content">
+                            <div class="tab-pane fade show active" id="v-pills-p1" role="tabpanel"
+                                aria-labelledby="v-pills-p1-tab" tabindex="0">
+                                <div class="package-card">
+                                    <!-- <div class="icon18">
+                                        <div class="outline">
+                                            <div class="container26">
+                                                <div class="icon-container6">
+                                                    <img class="arcturus-icon2" alt=""
+                                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arcturus1.svg" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="content-containerz">
+                                        <div class="content3">
+                                            <div class="group-parent">
+                                                <b class="title3">Arcturus</b>
+                                                <div class="description">
+                                                    You’re not new to the game, and you need a way to set your
+                                                    brand apart from your competitors. This package has 3
+                                                    platforms, 3 weekly posts, stories management, influencer
+                                                    marketing, and more.
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <div class="container5">
+                                                    <b class="button-text">Select</b>
+                                                    <div class="icon5"><img
+                                                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-p2" role="tabpanel" aria-labelledby="v-pills-p2-tab"
+                                tabindex="0">
+                                <div class="package-card">
+                                    <!-- <div class="icon18">
+                                        <div class="outline">
+                                            <div class="container26">
+                                                <div class="icon-container6">
+                                                    <img class="arcturus-icon2" alt=""
+                                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arcturus1.svg" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="content-container1z">
+                                        <div class="content3">
+                                            <div class="group-parent">
+                                                <b class="title3">Pro</b>
+                                                <div class="description">
+                                                    You want it all! This package has photography, community
+                                                    management, looping GIFs, 4 platforms, 4 posts a week,
+                                                    stories management, influencer marketing, and more.
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <div class="container5">
+                                                    <b class="button-text">Select</b>
+                                                    <div class="icon5"><img
+                                                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-p3" role="tabpanel" aria-labelledby="v-pills-p3-tab"
+                                tabindex="0">
+                                <div class="package-card">
+                                    <!-- <div class="icon18">
+                                        <div class="outline">
+                                            <div class="container26">
+                                                <div class="icon-container6">
+                                                    <img class="arcturus-icon2" alt=""
+                                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arcturus1.svg" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="content-container2z">
+                                        <div class="content3">
+                                            <div class="group-parent">
+                                                <b class="title3">Andromeda</b>
+                                                <div class="description">
+                                                    Here are the basics! Community management, copywriting,
+                                                    analytics, 3 weekly posts, 2 platforms, and a lot of
+                                                    expertise. We’ve got you covered.
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <div class="container5">
+                                                    <b class="button-text">Select</b>
+                                                    <div class="icon5"><img
+                                                            src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- ========== End Company Description ========== -->
 </main>
 <?php get_footer() ?>
