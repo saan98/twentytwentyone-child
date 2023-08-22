@@ -392,8 +392,12 @@ button:not(:hover):not(:active):not(.has-background) {
 }
 .bannerz::after{
     position:absolute;
-    content: url("https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg");
+    content: " ";
     background: var(--main-colour);
+    top:0;
+    right:0;
+    background-size:cover;
+    width: 500px;
 }
 
 
