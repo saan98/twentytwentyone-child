@@ -371,8 +371,6 @@ button:not(:hover):not(:active):not(.has-background) {
 .titlez {
     font-size: 48px;
 }
-
-
 .buttonz-link a{
     display: block;
     width: 266px;
@@ -389,40 +387,59 @@ button:not(:hover):not(:active):not(.has-background) {
     margin-right: 30px;
     margin-top: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.button,
-.content-container,
-.content3 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: fit-content;
+.bannerz{
+    position:relative;
 }
+.bannerz::after{
+    position:absolute;
+    content: url("https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg");
+    background: var(--main-colour);
+}
+
+
+
+
+
+
+/* .background-div{
+    background-color: var(--main-colour);
+    border-radius: 640px 0px 0px 640px;
+    position: relative;
+    right:0;
+    width:100%;
+}
+.background-div::after{
+    background-color: var(--main-colour);
+    border-radius: 640px 0px 0px 640px;
+    position: absolute;
+    right:0;   
+    width:-100%;
+}
+.containerz::after{
+    content:"content";
+    background: black;
+    width: 100%;
+}
+
+.imgz img{
+    min-width: 300px !important;
+    height: auto;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .service-iconz-div {
     border-radius: 100px;
