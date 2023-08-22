@@ -388,8 +388,10 @@ button:not(:hover):not(:active):not(.has-background) {
     margin-top: 40px;
 }
 .bannerz{
-    position:relative;
+    position: relative;
 }
+
+
 .bannerz::after{
     position:absolute;
     content: " ";
@@ -397,7 +399,9 @@ button:not(:hover):not(:active):not(.has-background) {
     top:0;
     right:0;
     background-size:cover;
-    width: 500px;
+    width: 50%;
+    height:1px;
+    padding-bottom: 250px;
 }
 
 

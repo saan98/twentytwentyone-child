@@ -4,11 +4,7 @@
 <main class="inner-page">
     <!-- ========== Start Banner ========== -->
     <section class="bannerz">
-        <div class="container">
-            <div class="imgz-div">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/banner-handz.png"
-                    class="img-fluid rounded-top" alt="a hand holding phone">
-            </div>
+        <div class="container ">
             <div class="row containerz justify-content-center align-items-center">
                 <div class="col-lg-6 col-sm-12">
                     <p class="titlez">Qode Social</p>
@@ -23,6 +19,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12 colz">
+                    <div class="imgz-div">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/banner-handz.png"
+                            class="img-fluid rounded-top" alt="a hand holding phone">
+                    </div>
                 </div>
             </div>
         </div>
