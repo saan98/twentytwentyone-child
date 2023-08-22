@@ -17,8 +17,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="button">
+                        <div class="container5">
+                            <a name="" id="" class="btn btn-light" href="#" role="button">Our Work</a>
+                            <div class="icon5"><img
+                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
+                            </div>
+                        </div>
+                    </div>
                     <div class="main-btnz">
-                        <a name="" id="" class="btn btn-light" href="#" role="button">Our Work</a>
+
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -767,5 +775,6 @@
 
     </section>
     <!-- ========== End Company Description ========== -->
+
 </main>
 <?php get_footer() ?>
