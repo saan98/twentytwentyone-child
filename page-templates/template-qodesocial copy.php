@@ -17,8 +17,8 @@
                         <a name="" id="" class="" href="#" role="button">Let's Get Started<img
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
-                    <div class="buttonz-link">
-                        <a name="" id="" class="" href="#" role="button">Our Work<img
+                    <div class="buttonz-link" id="btn-outline-black">
+                        <a name="" id="button-bg-black" class="" href="#" role="button">Our Work<img
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/pencil.png" /></a>
                     </div>
                 </div>

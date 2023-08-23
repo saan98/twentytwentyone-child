@@ -376,21 +376,31 @@ button:not(:hover):not(:active):not(.has-background) {
     margin-top: 40px;
 }
 
+#button-bg-black {
+    background: #000;
+}
+
+#btn-outline-black {
+    border: 3.5px solid #000;
+}
+
 .buttonz-link a {
-    display: block;
-    width: 266px;
-    height: 65px;
-    border: 3px solid #ffffff;
-    border-radius: 40px;
+    max-width: 266px;
+    height: 48px;
     background-color: var(--main-colour);
     color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 40px;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 60px;
     text-decoration: none;
-
+    align-items: center;
+    display: inline-flex;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 
