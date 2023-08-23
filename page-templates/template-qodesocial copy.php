@@ -13,13 +13,13 @@
                     <div class="textz">
                         <p>Uniting Brands with Audiences®</p>
                     </div>
-                    <div class="buttonz-link">
-                        <a name="" id="" class="" href="#" role="button">Let's Get Started<img
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
+                    <div class="buttonz-link" id="btn-1">
+                        <a name="" id="" class="" href="#" role="button">Let's Get Started</a>
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" />
                     </div>
                     <div class="buttonz-link" id="btn-outline-black">
-                        <a name="" id="button-bg-black" class="" href="#" role="button">Our Work<img
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/pencil.png" /></a>
+                        <a name="" id="button-bg-black" class="" href="#" role="button">Our Work</a>
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/pencil.png" />
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12 colz">
@@ -77,7 +77,7 @@
                             class="hand-phone" alt="food on plate">
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12 intro-text">
                     <div class="titlez">
                         <p>Social media agency for businesses in Toronto</p>
                     </div>
@@ -85,7 +85,7 @@
                         <p>Full service social media marketing agency & content creation agency</p>
                     </div>
                     <div class="buttonz-link">
-                        <a name="" id="" class="btn btn-dark" href="#" role="button">About Us<img
+                        <a name="" id="" class="" href="#" role="button">About Us<img
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
@@ -97,57 +97,94 @@
     <!-- ========== Start Services ========== -->
     <section class="servicesz">
         <div class="container">
-            <div class="row justify-content-center align-items-center justify-content-center align-items-center">
-                <div class="col-lg-6 col-sm-12">
-                    <p class="textz">
-                        Here’s a highlight of some of the services that set us apart as Toronto Social Media Experts
-                    </p>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-12 service-text">
+                    <div class="textz">
+                        <p>Here’s a highlight of some of the services that set us apart as Toronto Social Media Experts
+                        </p>
+                    </div>
                     <div class="buttonz-link">
                         <a name="" id="" class="" href="#" role="button">View All Services<img
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-12">
-                    <div class="row justify-content-center align-items-center gap-5">
-                        <div class="service-iconz-div col-lg-4">
-                            <img class="service-iconz" alt="Social Copywriting"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconmonthly-content-calendars.svg" />
+                <div class="col-lg-6 col-sm-12 service-icons-col">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-4">
+                            <div class="service-icon-border">
+                                <div class="service-icon-div">
+                                    <img class="service-iconz" alt="Social Copywriting"
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconmonthly-content-calendars.svg" />
+                                </div>
+                            </div>
                         </div>
-                        <div class="service-iconz-div col-lg-4">
-                            <img class="service-iconz" alt="Monthly Content Calendars"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconsocial-copywriting.svg" />
+                        <div class="col-lg-4">
+                            <div class="service-icon-border">
+                                <div class="service-icon-div">
+                                    <img class="service-iconz" alt="Monthly Content Calendars"
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconsocial-copywriting.svg" />
+                                </div>
+                            </div>
                         </div>
-                        <div class="service-iconz-div col-lg-4">
-                            <img class="service-iconz" alt="Content & Visual Strategy"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconcontent--visual-strategy.svg" />
-                        </div>
-                    </div>
-                    <div class="row justify-content-center align-items-center gap-5">
-                        <div class="service-iconz-div col-lg-4">
-                            <img class="service-iconz" alt="Videography"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconvideography.svg" />
-                        </div>
-                        <div class="service-iconz-div col-lg-4">
-                            <img class="service-iconz" alt="Photography"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconphotography.svg" />
-                        </div>
-                        <div class="service-iconz-div col-lg-4">
-                            <img class="service-iconz" alt="Analytic Reporting"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconanalytic-reporting.svg" />
+                        <div class="col-lg-4">
+                            <div class="service-icon-border">
+                                <div class="service-icon-div">
+                                    <img class="service-iconz" alt="Content & Visual Strategy"
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconcontent--visual-strategy.svg" />
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row justify-content-center align-items-center gap-5">
-                        <div class="service-iconz-div col-lg-4">
-                            <img class="service-iconz" alt="Market Research"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconmarket-research.svg" />
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-4">
+                            <div class="service-icon-border">
+                                <div class="service-icon-div">
+                                    <img class="service-iconz" alt="Videography"
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconvideography.svg" />
+                                </div>
+                            </div>
                         </div>
-                        <div class="service-iconz-div col-lg-4">
-                            <img class="service-iconz" alt="Social Media Management"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconsocial-media-management.svg" />
+                        <div class="col-lg-4">
+                            <div class="service-icon-border">
+                                <div class="service-icon-div">
+                                    <img class="service-iconz" alt="Photography"
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconphotography.svg" />
+                                </div>
+                            </div>
                         </div>
-                        <div class="service-iconz-div col-lg-4">
-                            <img class="service-iconz" alt="Conversion Campaigns"
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconconversion-campaigns.svg" />
+                        <div class="col-lg-4">
+                            <div class="service-icon-border">
+                                <div class="service-icon-div">
+                                    <img class="service-iconz" alt="Analytic Reporting"
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconanalytic-reporting.svg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-4">
+                            <div class="service-icon-border">
+                                <div class="service-icon-div">
+                                    <img class="service-iconz" alt="Market Research"
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconmarket-research.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="service-icon-border">
+                                <div class="service-icon-div">
+                                    <img class="service-iconz" alt="Social Media Management"
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconsocial-media-management.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="service-icon-border">
+                                <div class="service-icon-div">
+                                    <img class="service-iconz" alt="Conversion Campaigns"
+                                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/service-iconconversion-campaigns.svg" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,8 +203,8 @@
                         <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/gaylea.png" />
                     </div>
                     <div class="buttonz-link">
-                        <a name="" id="" class="" href="#" role="button">View All Services<img
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
+                        <a name="" id="" class="" href="#" role="button">Gay Lea<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/chevron-right.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12">
@@ -176,8 +213,8 @@
                             src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/qualifirst.png" />
                     </div>
                     <div class="buttonz-link">
-                        <a name="" id="" class="" href="#" role="button">View All Services<img
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
+                        <a name="" id="" class="" href="#" role="button">Qualifirst<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/chevron-right.png" /></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12">
@@ -185,8 +222,8 @@
                         <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/fuze.png" />
                     </div>
                     <div class="buttonz-link">
-                        <a name="" id="" class="" href="#" role="button">View All Services<img
-                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arrow-right.png" /></a>
+                        <a name="" id="" class="" href="#" role="button">FUZE Reps<img
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/chevron-right.png" /></a>
                     </div>
                 </div>
             </div>
@@ -205,13 +242,18 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12">
-                    <p>The Qode Social team is amazing to work with. Highly responsive and professional. They take the
-                        time to understand your business and position for market dominance through highly polished
-                        digital assets. I wouldn’t trust my businesses with anyone else.</p>
-                    <p>
-                        Leslie
-                        Toronto Business Owner
-                    </p>
+                    <div class="review-text">
+                        <span>"</span>
+                        <p>The Qode Social team is amazing to work with. Highly responsive and professional. They take
+                            the time to understand your business and position for market dominance through highly
+                            polished
+                            digital assets. I wouldn’t trust my businesses with anyone else.
+                        </p>
+                        <p>
+                            <span>Leslie</span>
+                            Toronto Business Owner
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
