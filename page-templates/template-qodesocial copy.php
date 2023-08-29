@@ -461,7 +461,7 @@
                                         <div class="container18">
                                             <div class="icon-container3">
                                                 <img class="orion-icon" alt=""
-                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/orion2.svg" />
+                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/orion.svg" />
                                             </div>
                                         </div>
                                     </div>
@@ -475,7 +475,7 @@
                                         <div class="container17">
                                             <div class="icon-container3">
                                                 <img class="arcturus-icon" alt=""
-                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arcturus.svg" />
+                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/arcturus.svg" />
                                             </div>
                                         </div>
                                     </div>
@@ -489,7 +489,7 @@
                                         <div class="container18">
                                             <div class="icon-container3">
                                                 <img class="andromeda-icon" alt=""
-                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/andromeda.svg" />
+                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/andromeda.svg" />
                                             </div>
                                         </div>
                                     </div>
@@ -682,7 +682,7 @@
                                         <div class="container18">
                                             <div class="icon-container3">
                                                 <img class="orion-icon" alt=""
-                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/orion2.svg" />
+                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/orion.svg" />
                                             </div>
                                         </div>
                                     </div>
@@ -696,7 +696,7 @@
                                         <div class="container17">
                                             <div class="icon-container3">
                                                 <img class="arcturus-icon" alt=""
-                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/arcturus.svg" />
+                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/arcturus.svg" />
                                             </div>
                                         </div>
                                     </div>
@@ -710,7 +710,7 @@
                                         <div class="container18">
                                             <div class="icon-container3">
                                                 <img class="andromeda-icon" alt=""
-                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/andromeda.svg" />
+                                                    src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/inner-page/andromeda.svg" />
                                             </div>
                                         </div>
                                     </div>
