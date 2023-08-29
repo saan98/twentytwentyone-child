@@ -85,7 +85,7 @@ $('#owl-carousel-3').owlCarousel({
 });
 $('#owl-carousel-4').owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 90,
     dots: false,
     nav: false,
     autoplay: true,
@@ -104,7 +104,7 @@ $('#owl-carousel-4').owlCarousel({
             nav:false
         },
         1000:{
-            items:4.3,
+            items:5,
             nav:false,
             loop:false
         }
@@ -112,7 +112,7 @@ $('#owl-carousel-4').owlCarousel({
 });
 $('#owl-carousel-5').owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 90,
     dots: false,
     nav: false,
     autoplay: true,
@@ -131,7 +131,7 @@ $('#owl-carousel-5').owlCarousel({
             nav:false
         },
         1000:{
-            items:4.3,
+            items:5,
             nav:false,
             loop:false
         }

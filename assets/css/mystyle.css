@@ -625,18 +625,21 @@ button:not(:hover):not(:active):not(.has-background) {
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
+    margin-top: 30px;
 }
-.review-text p::before{
+.review-text .main-review::before{
     content:'"';
     font-size: 128px;
     font-style: normal;
     font-weight: 700;
     line-height: 0;
+    display: block;
 }
 
 /* Clients */
 .clientsz {
     position: relative;
+    margin-top: 250px;
 }
 
 .clientsz::before {
@@ -646,6 +649,16 @@ button:not(:hover):not(:active):not(.has-background) {
     width: 88%;
     height: 350px;
     border-radius: 0 640px 640px 0;
+    margin-top: 70px;
+    bottom: -69px;
+}
+.client-container, .accolades-container{
+    margin-bottom:60px;
+}
+.logo-div{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
 }
 
 /* Accolades */
@@ -656,7 +669,7 @@ button:not(:hover):not(:active):not(.has-background) {
 .accoladesz::after {
     content: "";
     position: absolute;
-    top: 60px;
+    top: 75px;
     right: 0;
     background: var(--main-colour);
     width: 88%;

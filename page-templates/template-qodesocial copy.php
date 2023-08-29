@@ -243,13 +243,11 @@
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="review-text">
-                        <span>"</span>
-                        <p>The Qode Social team is amazing to work with. Highly responsive and professional. They take
+                        <p class="main-review">The Qode Social team is amazing to work with. Highly responsive and
+                            professional. They take
                             the time to understand your business and position for market dominance through highly
                             polished
                             digital assets. I wouldn’t trust my businesses with anyone else.
-                        </p>
-                        <p>
                             <span>Leslie</span>
                             Toronto Business Owner
                         </p>
@@ -262,168 +260,182 @@
 
     <!-- ========== Start Our Clients ========== -->
     <section class="clientsz">
-        <div class="container">
-            <div id="owl-carousel-4" class="owl-carousel owl-theme">
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw9@2x.png" />
+        <div class="container client-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="titlez">
+                        Brands we are nurturing
+                    </div>
                 </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw10@2x.png" />
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div id="owl-carousel-4" class="owl-carousel owl-theme">
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw9@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw10@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw11@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw12@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw13@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw14@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw15@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw16@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw17@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw18@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw19@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw20@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw21@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw22@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw23@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw24@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw25@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw26@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw27@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw28@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw29@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw30@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw31@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw32@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw33@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw34@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw35@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw36@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw37@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw38@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw39@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw40@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw41@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw42@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw43@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw44@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw45@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw46@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw47@2x.png" />
+                        </div>
+                        <div class="logoz-div">
+                            <img class="logo-iconz" alt=""
+                                src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw48@2x.png" />
+                        </div>
+                    </div>
                 </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw11@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw12@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw13@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw14@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw15@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw16@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw17@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw18@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw19@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw20@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw21@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw22@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw23@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw24@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw25@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw26@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw27@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw28@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw29@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw30@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw31@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw32@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw33@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw34@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw35@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw36@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw37@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw38@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw39@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw40@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw41@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw42@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw43@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw44@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw45@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw46@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw47@2x.png" />
-                </div>
-                <div class="logoz-div">
-                    <img class="logo-iconz" alt=""
-                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw48@2x.png" />
-                </div>
+
             </div>
         </div>
     </section>
@@ -593,46 +605,50 @@
 
     <!-- ========== Start Our Accolades ========== -->
     <section class="accoladesz">
-        <div class="container">
+        <div class="container accolades-container">
             <div class="row text-end">
                 <div class="col-lg-12">
                     <p class="titlez">Our Accolades</p>
                 </div>
-                <div class="col-lg-12">
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-lg-10">
                     <div id="owl-carousel-5" class="owl-carousel owl-theme">
-                        <div class="logo-iconz-div">
+                        <div class="logo-div">
                             <img class="logo-iconz" alt=""
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw@2x.png" />
                         </div>
-                        <div class="logo-iconz-div">
+                        <div class="logo-div">
                             <img class="logo-iconz" alt=""
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw1@2x.png" />
                         </div>
-                        <div class="logo-iconz-div">
+                        <div class="logo-div">
                             <img class="logo-iconz" alt=""
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw2@2x.png" />
                         </div>
-                        <div class="logo-iconz-div">
+                        <div class="logo-div">
                             <img class="logo-iconz" alt=""
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw3@2x.png" />
                         </div>
-                        <div class="logo-iconz-div">
+                        <div class="logo-div">
                             <img class="logo-iconz" alt=""
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw4@2x.png" />
                         </div>
-                        <div class="logo-iconz-div">
+                        <div class="logo-div">
                             <img class="logo-iconz" alt=""
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw5@2x.png" />
                         </div>
-                        <div class="logo-iconz-div">
+                        <div class="logo-div">
                             <img class="logo-iconz" alt=""
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw6@2x.png" />
                         </div>
-                        <div class="logo-iconz-div">
+                        <div class="logo-div">
                             <img class="logo-iconz" alt=""
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw7@2x.png" />
                         </div>
-                        <div class="logo-iconz-div">
+                        <div class="logo-div">
                             <img class="logo-iconz" alt=""
                                 src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/public/logo-bw8@2x.png" />
                         </div>
